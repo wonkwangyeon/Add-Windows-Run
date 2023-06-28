@@ -2,10 +2,6 @@ from db.DB import DB
 from lib.logger import Logger
 from winreg import *
 
-#key = CreateKey(HKEY_LOCAL_MACHINE, "SOFTWARE\\Microsoft\Windows\\CurrentVersion\\App Paths\\vscodetest.exe")
-#SetValueEx(key, '', 0, REG_SZ, 'C:\\Users\\won\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe')
-#SetValueEx(key, 'Path', 0, REG_SZ, 'C:\\Users\\won\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe')
-#DeleteKey(HKEY_LOCAL_MACHINE, "SOFTWARE\\Microsoft\Windows\\CurrentVersion\\App Paths\\vscodetest.exe")
 
 class Run(object):
     logger = Logger("Run")
