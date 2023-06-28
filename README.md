@@ -43,7 +43,7 @@ Windows의 실행에서 파일을 실행할 수 있도록 등록 및 관리하�
 
 3. 확인
 
-![Run](./description/Run.png)
+![ViewRun](./description/ViewRun.png)
 - 실행창에서 등록한 명령어를 통해 실행확인
 
 
